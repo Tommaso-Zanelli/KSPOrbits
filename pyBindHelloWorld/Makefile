@@ -1,6 +1,7 @@
-PYTHON_INCLUDE = C:\Users\t.zanelli\AppData\Local\Programs\Python\Python313\include
-PYTHON_LIBS    = C:\Users\t.zanelli\AppData\Local\Programs\Python\Python313\libs
-PYBIND_INCLUDE = C:\Users\t.zanelli\AppData\Local\Programs\Python\Python313\Lib\site-packages\pybind11\include
+PYTHON_DIR     = C:\Users\t.zanelli\AppData\Local\Programs\Python\Python313
+PYTHON_INCLUDE = $(PYTHON_DIR)\include
+PYTHON_LIBS    = $(PYTHON_DIR)\libs
+PYBIND_INCLUDE = $(PYTHON_DIR)\Lib\site-packages\pybind11\include
 
 CFLAGS = /O2 /LD /EHsc /MD
 INCLUDES = /I "$(PYTHON_INCLUDE)" /I "$(PYBIND_INCLUDE)"

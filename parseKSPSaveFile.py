@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-import cProfile, pstats, io
-import pickle
+# import cProfile, pstats, io
+# import pickle
+
+inputFile = r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good.sfs"
+outputFile = r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good-check.sfs"
 
 # Create timer object
 import time
@@ -227,15 +230,15 @@ def dictTosfsFile(dataDict, fileName, verbose = False):
 def main():
     # Load file as dictionary
     tt.tic()
-    dataDict = sfsFileToDict(r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good.sfs")
-    fileId = open(r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good.pkl", 'wb')
-    pickle.dump(dataDict, fileId)
-    fileId.close()
+    dataDict = sfsFileToDict(inputFile)
+    #fileId = open(r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good.pkl", 'wb')
+    #pickle.dump(dataDict, fileId)
+    #fileId.close()
     tt.toc("Time elapsed loading file (s):")
 
     # Output file for checking functionality
     tt.tic()
-    dictTosfsFile(dataDict, r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good-check.sfs")
+    dictTosfsFile(dataDict, outputFile)
     tt.toc("Time elapsed writing file (s):")
 
 # pr = cProfile.Profile()

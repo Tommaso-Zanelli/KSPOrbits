@@ -1,6 +1,8 @@
 #include <pybind11/pybind11.h>
 #include <iostream>
 
+// https://pybind11.readthedocs.io/en/stable/advanced/pycpp/object.html
+
 namespace py = pybind11;
 
 std::string hello(std::string name)
