@@ -1,0 +1,1090 @@
+{
+    "Kerbol":
+    {
+        "class": "Star",
+        "attractor":
+        {
+            "name": null,
+            "REF": null
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": null,
+            "apoapsis": null,
+            "periapsis": null,
+            "orbitalEccentricity": null,
+            "orbitalInclination": null,
+            "argumentOfPeriapsis": null,
+            "longitudeOfTheAscendingNode": null,
+            "meanAnomaly": null,
+            "siderealOrbitalPeriod": null,
+            "synodicOrbitalPeriod": null,
+            "minOrbitalVelocity": null,
+            "maxOrbitalVelocity": null,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 261600000.0,
+            "equatorialCircumference": 1643681276.0,
+            "surfaceArea": 8.5997404e+17,
+            "mass": 1.7565459e+28,
+            "standardGravitationalParameter": 1.1723328e+18,
+            "density": 234.23818,
+            "surfaceGravity": 17.1,
+            "escapeVelocity": 94672.01,
+            "siderealRotationPeriod": 432000.0,
+            "solarDay": null,
+            "siderealRotationalVelocity": 3804.8,
+            "synchronousOrbit": 1508045290.0,
+            "sphereOfInfluence": Infinity
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": true,
+            "atmosphericPressureKpa": 16.0,
+            "atmosphericPressureAtm": 0.157908,
+            "atmosphericHeight": 600000.0,
+            "minimumPressureAtm": 1.6e-07,
+            "temperatureMinCelsius": 3741.8,
+            "temperatureMinKelvin": 4014.95,
+            "temperatureMaxCelsius": 9348.05,
+            "temperatureMaxKelvin": 9621.2,
+            "oxygenPresent": false
+        },
+        "scientificMultiplier":
+        {
+            "surface": null,
+            "splashed": null,
+            "lowerAtmosphere": 1.0,
+            "upperAtmosphere": 1.0,
+            "nearSpace": 11.0,
+            "outerSpace": 2.0,
+            "recovery": null
+        }
+    },
+    "Kerbin":
+    {
+        "class": "Planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 13599840256.0,
+            "apoapsis": 13599840256.0,
+            "periapsis": 13599840256.0,
+            "orbitalEccentricity": 0.0,
+            "orbitalInclination": 0.0,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 0.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 9203544.6,
+            "synodicOrbitalPeriod": null,
+            "minOrbitalVelocity": 9285.0,
+            "maxOrbitalVelocity": 9285.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 600000.0,
+            "equatorialCircumference": 3769911.0,
+            "surfaceArea": 4523893400000.0,
+            "mass": 5.2915158e+22,
+            "standardGravitationalParameter": 3531600000000.0,
+            "density": 58484.09,
+            "surfaceGravity": 9.81,
+            "escapeVelocity": 3431.03,
+            "siderealRotationPeriod": 21549.4,
+            "solarDay": 21600.0,
+            "siderealRotationalVelocity": 174.94,
+            "synchronousOrbit": 2863330.0,
+            "sphereOfInfluence": 84159286.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": true,
+            "atmosphericPressureKpa": 101.325,
+            "atmosphericPressureAtm": 1.0,
+            "atmosphericHeight": 70000.0,
+            "minimumPressureAtm": 1e-06,
+            "temperatureMinCelsius": -86.2,
+            "temperatureMinKelvin": 186.95,
+            "temperatureMaxCelsius": 15.0,
+            "temperatureMaxKelvin": 288.15,
+            "oxygenPresent": true
+        },
+        "scientificMultiplier":
+        {
+            "surface": 0.3,
+            "splashed": 0.4,
+            "lowerAtmosphere": 0.7,
+            "upperAtmosphere": 0.9,
+            "nearSpace": 1.0,
+            "outerSpace": 1.5,
+            "recovery": 1.0
+        }
+    },
+    "Mun":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Kerbin",
+            "REF": 1
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 12000000.0,
+            "apoapsis": 12000000.0,
+            "periapsis": 12000000.0,
+            "orbitalEccentricity": 0.0,
+            "orbitalInclination": 0.0,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 0.0,
+            "meanAnomaly": 1.7,
+            "siderealOrbitalPeriod": 138984.4,
+            "synodicOrbitalPeriod": 141115.4,
+            "minOrbitalVelocity": 543.0,
+            "maxOrbitalVelocity": 543.0,
+            "longestTimeEclipsed": 2213.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 200000.0,
+            "equatorialCircumference": 1256637.0,
+            "surfaceArea": 502654819999.99994,
+            "mass": 9.759906600000001e+20,
+            "standardGravitationalParameter": 65138398000.0,
+            "density": 29125.076,
+            "surfaceGravity": 1.63,
+            "escapeVelocity": 807.08,
+            "siderealRotationPeriod": 138984.4,
+            "solarDay": null,
+            "siderealRotationalVelocity": 9.0416,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 2429559.1
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 4.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 3.0,
+            "outerSpace": 2.0,
+            "recovery": 2.0
+        }
+    },
+    "Minmus":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Kerbin",
+            "REF": 1
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 47000000.0,
+            "apoapsis": 47000000.0,
+            "periapsis": 47000000.0,
+            "orbitalEccentricity": 0.0,
+            "orbitalInclination": 6.0,
+            "argumentOfPeriapsis": 38.0,
+            "longitudeOfTheAscendingNode": 78.0,
+            "meanAnomaly": 0.9,
+            "siderealOrbitalPeriod": 1077310.5,
+            "synodicOrbitalPeriod": 1220131.7,
+            "minOrbitalVelocity": 274.0,
+            "maxOrbitalVelocity": 274.0,
+            "longestTimeEclipsed": 4378.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 60000.0,
+            "equatorialCircumference": 376991.0,
+            "surfaceArea": 45238934000.00001,
+            "mass": 2.645758e+19,
+            "standardGravitationalParameter": 1765800000.0,
+            "density": 29242.046,
+            "surfaceGravity": 0.491,
+            "escapeVelocity": 242.61,
+            "siderealRotationPeriod": 40400.0,
+            "solarDay": null,
+            "siderealRotationalVelocity": 9.3315,
+            "synchronousOrbit": 357940.0,
+            "sphereOfInfluence": 2247428.4
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 5.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 4.0,
+            "outerSpace": 2.5,
+            "recovery": 2.5
+        }
+    },
+    "Moho":
+    {
+        "class": "Planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 5263138304.0,
+            "apoapsis": 6315765981.0,
+            "periapsis": 4210510628.0,
+            "orbitalEccentricity": 0.2,
+            "orbitalInclination": 7.0,
+            "argumentOfPeriapsis": 15.0,
+            "longitudeOfTheAscendingNode": 70.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 2215754.2,
+            "synodicOrbitalPeriod": 2918346.4,
+            "minOrbitalVelocity": 12186.0,
+            "maxOrbitalVelocity": 18279.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 250000.0,
+            "equatorialCircumference": 1570796.0,
+            "surfaceArea": 785398160000.0,
+            "mass": 2.5263314e+21,
+            "standardGravitationalParameter": 168609380000.0,
+            "density": 38599.5,
+            "surfaceGravity": 2.7,
+            "escapeVelocity": 1161.41,
+            "siderealRotationPeriod": 1210000.0,
+            "solarDay": 2665723.4,
+            "siderealRotationalVelocity": 1.2982,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 9646663.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 10.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 8.0,
+            "outerSpace": 7.0,
+            "recovery": 7.0
+        }
+    },
+    "Eve":
+    {
+        "class": "Planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 9832684544.0,
+            "apoapsis": 9931011387.0,
+            "periapsis": 9734357701.0,
+            "orbitalEccentricity": 0.01,
+            "orbitalInclination": 2.1,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 15.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 5657995.1,
+            "synodicOrbitalPeriod": 14687035.5,
+            "minOrbitalVelocity": 10811.0,
+            "maxOrbitalVelocity": 11029.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 700000.0,
+            "equatorialCircumference": 4398230.0,
+            "surfaceArea": 6157521600000.0,
+            "mass": 1.2243980000000002e+23,
+            "standardGravitationalParameter": 8171730200000.0,
+            "density": 85219.677,
+            "surfaceGravity": 16.7,
+            "escapeVelocity": 4831.96,
+            "siderealRotationPeriod": 80500.0,
+            "solarDay": 81661.9,
+            "siderealRotationalVelocity": 54.636,
+            "synchronousOrbit": 10328470.0,
+            "sphereOfInfluence": 85109365.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": true,
+            "atmosphericPressureKpa": 506.625,
+            "atmosphericPressureAtm": 5.0,
+            "atmosphericHeight": 90000.0,
+            "minimumPressureAtm": 4.9999999999999996e-06,
+            "temperatureMinCelsius": -113.13,
+            "temperatureMinKelvin": 160.02,
+            "temperatureMaxCelsius": 146.85,
+            "temperatureMaxKelvin": 420.0,
+            "oxygenPresent": false
+        },
+        "scientificMultiplier":
+        {
+            "surface": 8.0,
+            "splashed": 8.0,
+            "lowerAtmosphere": 6.0,
+            "upperAtmosphere": 6.0,
+            "nearSpace": 7.0,
+            "outerSpace": 5.0,
+            "recovery": 5.0
+        }
+    },
+    "Duna":
+    {
+        "class": "Planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 20726155264.0,
+            "apoapsis": 21783189163.0,
+            "periapsis": 19669121365.0,
+            "orbitalEccentricity": 0.051,
+            "orbitalInclination": 0.06,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 135.5,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 17315400.1,
+            "synodicOrbitalPeriod": 19645697.3,
+            "minOrbitalVelocity": 7147.0,
+            "maxOrbitalVelocity": 7915.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 320000.0,
+            "equatorialCircumference": 2010619.0,
+            "surfaceArea": 1286796400000.0,
+            "mass": 4.515427e+21,
+            "standardGravitationalParameter": 301363210000.0,
+            "density": 32897.302,
+            "surfaceGravity": 2.94,
+            "escapeVelocity": 1372.41,
+            "siderealRotationPeriod": 65517.9,
+            "solarDay": 65766.7,
+            "siderealRotationalVelocity": 30.688,
+            "synchronousOrbit": 2880000.0,
+            "sphereOfInfluence": 47921949.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": true,
+            "atmosphericPressureKpa": 6.755,
+            "atmosphericPressureAtm": 0.066667,
+            "atmosphericHeight": 50000.0,
+            "minimumPressureAtm": 6.7e-08,
+            "temperatureMinCelsius": -123.15,
+            "temperatureMinKelvin": 150.0,
+            "temperatureMaxCelsius": -40.15,
+            "temperatureMaxKelvin": 233.0,
+            "oxygenPresent": false
+        },
+        "scientificMultiplier":
+        {
+            "surface": 8.0,
+            "splashed": null,
+            "lowerAtmosphere": 5.0,
+            "upperAtmosphere": 5.0,
+            "nearSpace": 7.0,
+            "outerSpace": 5.0,
+            "recovery": 5.0
+        }
+    },
+    "Ike":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Duna",
+            "REF": 6
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 3200000.0,
+            "apoapsis": 3296000.0,
+            "periapsis": 3104000.0,
+            "orbitalEccentricity": 0.03,
+            "orbitalInclination": 0.2,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 0.0,
+            "meanAnomaly": 1.7,
+            "siderealOrbitalPeriod": 65517.9,
+            "synodicOrbitalPeriod": 65766.7,
+            "minOrbitalVelocity": 298.0,
+            "maxOrbitalVelocity": 316.0,
+            "longestTimeEclipsed": 2153.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 130000.0,
+            "equatorialCircumference": 816814.0,
+            "surfaceArea": 212371659999.99997,
+            "mass": 2.7821615e+20,
+            "standardGravitationalParameter": 18568369000.0,
+            "density": 30231.777,
+            "surfaceGravity": 1.1,
+            "escapeVelocity": 534.48,
+            "siderealRotationPeriod": 65517.9,
+            "solarDay": null,
+            "siderealRotationalVelocity": 12.467,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 1049598.9
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 8.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 7.0,
+            "outerSpace": 5.0,
+            "recovery": 5.0
+        }
+    },
+    "Jool":
+    {
+        "class": "Planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 68773560320.0,
+            "apoapsis": 72212238387.0,
+            "periapsis": 65334882253.0,
+            "orbitalEccentricity": 0.05,
+            "orbitalInclination": 1.304,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 52.0,
+            "meanAnomaly": 0.1,
+            "siderealOrbitalPeriod": 104661432.1,
+            "synodicOrbitalPeriod": 10090901.7,
+            "minOrbitalVelocity": 3927.0,
+            "maxOrbitalVelocity": 4341.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 6000000.0,
+            "equatorialCircumference": 37699112.0,
+            "surfaceArea": 452389340000000.06,
+            "mass": 4.2332127e+24,
+            "standardGravitationalParameter": 282528000000000.0,
+            "density": 4678.7273,
+            "surfaceGravity": 7.85,
+            "escapeVelocity": 9704.43,
+            "siderealRotationPeriod": 36000.0,
+            "solarDay": 36012.4,
+            "siderealRotationalVelocity": 1047.2,
+            "synchronousOrbit": 15010460.0,
+            "sphereOfInfluence": 2455985200.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": true,
+            "atmosphericPressureKpa": 1519.88,
+            "atmosphericPressureAtm": 15.0,
+            "atmosphericHeight": 200000.0,
+            "minimumPressureAtm": 1.5000000000000002e-05,
+            "temperatureMinCelsius": -153.14,
+            "temperatureMinKelvin": 120.01,
+            "temperatureMaxCelsius": -48.08,
+            "temperatureMaxKelvin": 225.07,
+            "oxygenPresent": false
+        },
+        "scientificMultiplier":
+        {
+            "surface": null,
+            "splashed": null,
+            "lowerAtmosphere": 12.0,
+            "upperAtmosphere": 9.0,
+            "nearSpace": 7.0,
+            "outerSpace": 6.0,
+            "recovery": 6.0
+        }
+    },
+    "Laythe":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Jool",
+            "REF": 8
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 27184000.0,
+            "apoapsis": 27184000.0,
+            "periapsis": 27184000.0,
+            "orbitalEccentricity": 0.0,
+            "orbitalInclination": 0.0,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 0.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 52980.9,
+            "synodicOrbitalPeriod": 53007.7,
+            "minOrbitalVelocity": 3224.0,
+            "maxOrbitalVelocity": 3224.0,
+            "longestTimeEclipsed": 3754.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 500000.0,
+            "equatorialCircumference": 3141593.0,
+            "surfaceArea": 3141592700000.0,
+            "mass": 2.9397311e+22,
+            "standardGravitationalParameter": 1962000000000.0,
+            "density": 56144.728,
+            "surfaceGravity": 7.85,
+            "escapeVelocity": 2801.43,
+            "siderealRotationPeriod": 52980.9,
+            "solarDay": null,
+            "siderealRotationalVelocity": 59.297,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 3723645.8
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": true,
+            "atmosphericPressureKpa": 60.795,
+            "atmosphericPressureAtm": 0.6,
+            "atmosphericHeight": 50000.0,
+            "minimumPressureAtm": 6e-07,
+            "temperatureMinCelsius": -74.15,
+            "temperatureMinKelvin": 199.0,
+            "temperatureMaxCelsius": 3.85,
+            "temperatureMaxKelvin": 277.0,
+            "oxygenPresent": true
+        },
+        "scientificMultiplier":
+        {
+            "surface": 14.0,
+            "splashed": 12.0,
+            "lowerAtmosphere": 11.0,
+            "upperAtmosphere": 10.0,
+            "nearSpace": 9.0,
+            "outerSpace": 8.0,
+            "recovery": 8.0
+        }
+    },
+    "Vall":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Jool",
+            "REF": 8
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 43152000.0,
+            "apoapsis": 43152000.0,
+            "periapsis": 43152000.0,
+            "orbitalEccentricity": 0.0,
+            "orbitalInclination": 0.0,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 0.0,
+            "meanAnomaly": 0.9,
+            "siderealOrbitalPeriod": 105962.1,
+            "synodicOrbitalPeriod": 106069.5,
+            "minOrbitalVelocity": 2559.0,
+            "maxOrbitalVelocity": 2559.0,
+            "longestTimeEclipsed": 4706.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 300000.0,
+            "equatorialCircumference": 1884956.0,
+            "surfaceArea": 1130973400000.0,
+            "mass": 3.1087655e+21,
+            "standardGravitationalParameter": 207481500000.0,
+            "density": 27487.522,
+            "surfaceGravity": 2.31,
+            "escapeVelocity": 1176.1,
+            "siderealRotationPeriod": 105962.1,
+            "solarDay": null,
+            "siderealRotationalVelocity": 17.789,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 2406401.4
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 12.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 9.0,
+            "outerSpace": 8.0,
+            "recovery": 8.0
+        }
+    },
+    "Bop":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Jool",
+            "REF": 8
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 128500000.0,
+            "apoapsis": 158697500.0,
+            "periapsis": 98302500.0,
+            "orbitalEccentricity": 0.235,
+            "orbitalInclination": 15.0,
+            "argumentOfPeriapsis": 25.0,
+            "longitudeOfTheAscendingNode": 10.0,
+            "meanAnomaly": 0.9,
+            "siderealOrbitalPeriod": 544507.4,
+            "synodicOrbitalPeriod": 547355.1,
+            "minOrbitalVelocity": 1167.0,
+            "maxOrbitalVelocity": 1884.0,
+            "longestTimeEclipsed": 10286.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 65000.0,
+            "equatorialCircumference": 408407.0,
+            "surfaceArea": 53092916000.0,
+            "mass": 3.726109e+19,
+            "standardGravitationalParameter": 2486834900.0,
+            "density": 32391.188,
+            "surfaceGravity": 0.589,
+            "escapeVelocity": 276.62,
+            "siderealRotationPeriod": 544507.4,
+            "solarDay": null,
+            "siderealRotationalVelocity": 0.75005,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 1221060.9
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 12.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 9.0,
+            "outerSpace": 8.0,
+            "recovery": 8.0
+        }
+    },
+    "Tylo":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Jool",
+            "REF": 8
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 68500000.0,
+            "apoapsis": 68500000.0,
+            "periapsis": 68500000.0,
+            "orbitalEccentricity": 0.0,
+            "orbitalInclination": 0.025,
+            "argumentOfPeriapsis": 0.0,
+            "longitudeOfTheAscendingNode": 0.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 211926.4,
+            "synodicOrbitalPeriod": 212356.4,
+            "minOrbitalVelocity": 2031.0,
+            "maxOrbitalVelocity": 2031.0,
+            "longestTimeEclipsed": 5917.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 600000.0,
+            "equatorialCircumference": 3769911.0,
+            "surfaceArea": 4523893400000.0,
+            "mass": 4.2332127e+22,
+            "standardGravitationalParameter": 2825280000000.0,
+            "density": 46787.273,
+            "surfaceGravity": 7.85,
+            "escapeVelocity": 3068.81,
+            "siderealRotationPeriod": 211926.4,
+            "solarDay": null,
+            "siderealRotationalVelocity": 17.789,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 10856518.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 12.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 10.0,
+            "outerSpace": 8.0,
+            "recovery": 8.0
+        }
+    },
+    "Gilly":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Eve",
+            "REF": 5
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 31500000.0,
+            "apoapsis": 48825000.0,
+            "periapsis": 14175000.0,
+            "orbitalEccentricity": 0.55,
+            "orbitalInclination": 12.0,
+            "argumentOfPeriapsis": 10.0,
+            "longitudeOfTheAscendingNode": 80.0,
+            "meanAnomaly": 0.9,
+            "siderealOrbitalPeriod": 388587.4,
+            "synodicOrbitalPeriod": 417243.4,
+            "minOrbitalVelocity": 274.0,
+            "maxOrbitalVelocity": 945.0,
+            "longestTimeEclipsed": 5102.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 13000.0,
+            "equatorialCircumference": 81681.0,
+            "surfaceArea": 2123716599.9999998,
+            "mass": 1.2420363000000002e+17,
+            "standardGravitationalParameter": 8289449.8,
+            "density": 13496.328,
+            "surfaceGravity": 0.049,
+            "escapeVelocity": 35.71,
+            "siderealRotationPeriod": 28255.0,
+            "solarDay": null,
+            "siderealRotationalVelocity": 2.8909,
+            "synchronousOrbit": 42140.0,
+            "sphereOfInfluence": 126123.27
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 9.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 8.0,
+            "outerSpace": 6.0,
+            "recovery": 6.0
+        }
+    },
+    "Pol":
+    {
+        "class": "Moon",
+        "attractor":
+        {
+            "name": "Jool",
+            "REF": 8
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 179890000.0,
+            "apoapsis": 210624207.0,
+            "periapsis": 149155794.0,
+            "orbitalEccentricity": 0.171,
+            "orbitalInclination": 4.25,
+            "argumentOfPeriapsis": 15.0,
+            "longitudeOfTheAscendingNode": 2.0,
+            "meanAnomaly": 0.9,
+            "siderealOrbitalPeriod": 901902.6,
+            "synodicOrbitalPeriod": 909742.2,
+            "minOrbitalVelocity": 1055.0,
+            "maxOrbitalVelocity": 1489.0,
+            "longestTimeEclipsed": 11381.0
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 44000.0,
+            "equatorialCircumference": 276460.0,
+            "surfaceArea": 24328494000.0,
+            "mass": 1.0813507e+19,
+            "standardGravitationalParameter": 721702080.0,
+            "density": 30305.392,
+            "surfaceGravity": 0.373,
+            "escapeVelocity": 181.12,
+            "siderealRotationPeriod": 901902.6,
+            "solarDay": null,
+            "siderealRotationalVelocity": 0.30653,
+            "synchronousOrbit": null,
+            "sphereOfInfluence": 1042138.9
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 12.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 9.0,
+            "outerSpace": 8.0,
+            "recovery": 8.0
+        }
+    },
+    "Dres":
+    {
+        "class": "Dwarf planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 40839348203.0,
+            "apoapsis": 46761053692.0,
+            "periapsis": 34917642714.0,
+            "orbitalEccentricity": 0.145,
+            "orbitalInclination": 5.0,
+            "argumentOfPeriapsis": 90.0,
+            "longitudeOfTheAscendingNode": 280.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 47893063.1,
+            "synodicOrbitalPeriod": 11392903.3,
+            "minOrbitalVelocity": 4630.0,
+            "maxOrbitalVelocity": 6200.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 138000.0,
+            "equatorialCircumference": 867080.0,
+            "surfaceArea": 239313960000.0,
+            "mass": 3.2190937e+20,
+            "standardGravitationalParameter": 21484489000.0,
+            "density": 29242.045,
+            "surfaceGravity": 1.13,
+            "escapeVelocity": 558.0,
+            "siderealRotationPeriod": 34800.0,
+            "solarDay": 34825.3,
+            "siderealRotationalVelocity": 24.916,
+            "synchronousOrbit": 732240.0,
+            "sphereOfInfluence": 32832840.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 8.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 7.0,
+            "outerSpace": 6.0,
+            "recovery": 6.0
+        }
+    },
+    "Eeloo":
+    {
+        "class": "Dwarf planet",
+        "attractor":
+        {
+            "name": "Kerbol",
+            "REF": 0
+        },
+        "orbitalCharacteristics":
+        {
+            "semimajorAxis": 90118820000.0,
+            "apoapsis": 113549713200.0,
+            "periapsis": 66687926800.0,
+            "orbitalEccentricity": 0.26,
+            "orbitalInclination": 6.15,
+            "argumentOfPeriapsis": 260.0,
+            "longitudeOfTheAscendingNode": 50.0,
+            "meanAnomaly": 3.14,
+            "siderealOrbitalPeriod": 156992048.4,
+            "synodicOrbitalPeriod": 9776696.3,
+            "minOrbitalVelocity": 2764.0,
+            "maxOrbitalVelocity": 4706.0,
+            "longestTimeEclipsed": null
+        },
+        "physicalCharacteristics":
+        {
+            "equatorialRadius": 210000.0,
+            "equatorialCircumference": 1319469.0,
+            "surfaceArea": 554176940000.0,
+            "mass": 1.1149224e+21,
+            "standardGravitationalParameter": 74410815000.0,
+            "density": 28740.754,
+            "surfaceGravity": 1.69,
+            "escapeVelocity": 841.83,
+            "siderealRotationPeriod": 19460.0,
+            "solarDay": 19462.4,
+            "siderealRotationalVelocity": 67.804,
+            "synchronousOrbit": 683690.0,
+            "sphereOfInfluence": 119082940.0
+        },
+        "atmosphericCharacteristics":
+        {
+            "atmospherePresent": false,
+            "atmosphericPressureKpa": null,
+            "atmosphericPressureAtm": null,
+            "atmosphericHeight": null,
+            "minimumPressureAtm": null,
+            "temperatureMinCelsius": null,
+            "temperatureMinKelvin": null,
+            "temperatureMaxCelsius": null,
+            "temperatureMaxKelvin": null,
+            "oxygenPresent": null
+        },
+        "scientificMultiplier":
+        {
+            "surface": 15.0,
+            "splashed": null,
+            "lowerAtmosphere": null,
+            "upperAtmosphere": null,
+            "nearSpace": 12.0,
+            "outerSpace": 10.0,
+            "recovery": 10.0
+        }
+    }
+}
