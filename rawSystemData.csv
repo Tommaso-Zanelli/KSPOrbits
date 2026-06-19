@@ -1,0 +1,833 @@
+Kerbol
+Star
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Physical Characteristics
+Equatorial radius,261600000.0
+Equatorial circumference,1643681276.0
+Surface area,8.5997404e+17
+Mass,1.7565459e+28
+Standard gravitational parameter,1.1723328e+18
+Density,234.23818
+Surface gravity,17.1
+Escape velocity,94672.01
+Sidereal rotation period,432000.0
+Solar day,None
+Sidereal rotational velocity,3804.8
+Synchronous orbit,1508045290.0
+Sphere of influence,inf
+Atmospheric Characteristics
+Atmosphere present,True
+Atmospheric pressure (kPa),16.0
+Atmospheric pressure (atm),0.157908
+Atmospheric height,600000.0
+minimum pressure (atm),1.6e-07
+Temperature Min (Celsius),3741.8
+Temperature Min (Kelvin),4014.95
+Temperature Max (Celsius),9348.05
+Temperature Max (Kelvin),9621.2
+Oxygen present,False
+Scientific multiplier
+Surface,None
+Splashed,None
+Lower atmosphere,1.0
+Upper atmosphere,1.0
+Near space,11.0
+Outer space,2.0
+Recovery,None
+Moho
+Planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,5263138304.0
+Apoapsis,6315765981.0
+Periapsis,4210510628.0
+Orbital eccentricity,0.2
+Orbital inclination,7.0
+Argument of periapsis,15.0
+Longitude of the ascending node,70.0
+Mean anomaly,3.14
+Sidereal orbital period,2215754.2
+Synodic orbital period,2918346.4
+Min Orbital velocity,12186.0
+Max Orbital velocity,18279.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,250000.0
+Equatorial circumference,1570796.0
+Surface area,785398160000.0
+Mass,2.5263314e+21
+Standard gravitational parameter,168609380000.0
+Density,38599.5
+Surface gravity,2.7
+Escape velocity,1161.41
+Sidereal rotation period,1210000.0
+Solar day,2665723.4
+Sidereal rotational velocity,1.2982
+Synchronous orbit,None
+Sphere of influence,9646663.0
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,10.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,8.0
+Outer space,7.0
+Recovery,7.0
+Eve
+Planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,9832684544.0
+Apoapsis,9931011387.0
+Periapsis,9734357701.0
+Orbital eccentricity,0.01
+Orbital inclination,2.1
+Argument of periapsis,0.0
+Longitude of the ascending node,15.0
+Mean anomaly,3.14
+Sidereal orbital period,5657995.1
+Synodic orbital period,14687035.5
+Min Orbital velocity,10811.0
+Max Orbital velocity,11029.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,700000.0
+Equatorial circumference,4398230.0
+Surface area,6157521600000.0
+Mass,1.2243980000000002e+23
+Standard gravitational parameter,8171730200000.0
+Density,85219.677
+Surface gravity,16.7
+Escape velocity,4831.96
+Sidereal rotation period,80500.0
+Solar day,81661.9
+Sidereal rotational velocity,54.636
+Synchronous orbit,10328470.0
+Sphere of influence,85109365.0
+Atmospheric Characteristics
+Atmosphere present,True
+Atmospheric pressure (kPa),506.625
+Atmospheric pressure (atm),5.0
+Atmospheric height,90000.0
+minimum pressure (atm),4.9999999999999996e-06
+Temperature Min (Celsius),-113.13
+Temperature Min (Kelvin),160.02
+Temperature Max (Celsius),146.85
+Temperature Max (Kelvin),420.0
+Oxygen present,False
+Scientific multiplier
+Surface,8.0
+Splashed,8.0
+Lower atmosphere,6.0
+Upper atmosphere,6.0
+Near space,7.0
+Outer space,5.0
+Recovery,5.0
+Gilly
+Moon of,Eve
+Orbital Characteristics
+Semi-major axis,31500000.0
+Apoapsis,48825000.0
+Periapsis,14175000.0
+Orbital eccentricity,0.55
+Orbital inclination,12.0
+Argument of periapsis,10.0
+Longitude of the ascending node,80.0
+Mean anomaly,0.9
+Sidereal orbital period,388587.4
+Synodic orbital period,417243.4
+Min Orbital velocity,274.0
+Max Orbital velocity,945.0
+Longest time eclipsed,5102.0
+Physical Characteristics
+Equatorial radius,13000.0
+Equatorial circumference,81681.0
+Surface area,2123716599.9999998
+Mass,1.2420363000000002e+17
+Standard gravitational parameter,8289449.8
+Density,13496.328
+Surface gravity,0.049
+Escape velocity,35.71
+Sidereal rotation period,28255.0
+Solar day,None
+Sidereal rotational velocity,2.8909
+Synchronous orbit,42140.0
+Sphere of influence,126123.27
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,9.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,8.0
+Outer space,6.0
+Recovery,6.0
+Kerbin
+Planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,13599840256.0
+Apoapsis,13599840256.0
+Periapsis,13599840256.0
+Orbital eccentricity,0.0
+Orbital inclination,0.0
+Argument of periapsis,0.0
+Longitude of the ascending node,0.0
+Mean anomaly,3.14
+Sidereal orbital period,9203544.6
+Synodic orbital period,None
+Min Orbital velocity,9285.0
+Max Orbital velocity,9285.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,600000.0
+Equatorial circumference,3769911.0
+Surface area,4523893400000.0
+Mass,5.2915158e+22
+Standard gravitational parameter,3531600000000.0
+Density,58484.09
+Surface gravity,9.81
+Escape velocity,3431.03
+Sidereal rotation period,21549.4
+Solar day,21600.0
+Sidereal rotational velocity,174.94
+Synchronous orbit,2863330.0
+Sphere of influence,84159286.0
+Atmospheric Characteristics
+Atmosphere present,True
+Atmospheric pressure (kPa),101.325
+Atmospheric pressure (atm),1.0
+Atmospheric height,70000.0
+minimum pressure (atm),1e-06
+Temperature Min (Celsius),-86.2
+Temperature Min (Kelvin),186.95
+Temperature Max (Celsius),15.0
+Temperature Max (Kelvin),288.15
+Oxygen present,True
+Scientific multiplier
+Surface,0.3
+Splashed,0.4
+Lower atmosphere,0.7
+Upper atmosphere,0.9
+Near space,1.0
+Outer space,1.5
+Recovery,1.0
+Mun
+Moon of,Kerbin
+Orbital Characteristics
+Semi-major axis,12000000.0
+Apoapsis,12000000.0
+Periapsis,12000000.0
+Orbital eccentricity,0.0
+Orbital inclination,0.0
+Argument of periapsis,0.0
+Longitude of the ascending node,0.0
+Mean anomaly,1.7
+Sidereal orbital period,138984.4
+Synodic orbital period,141115.4
+Min Orbital velocity,543.0
+Max Orbital velocity,543.0
+Longest time eclipsed,2213.0
+Physical Characteristics
+Equatorial radius,200000.0
+Equatorial circumference,1256637.0
+Surface area,502654819999.99994
+Mass,9.759906600000001e+20
+Standard gravitational parameter,65138398000.0
+Density,29125.076
+Surface gravity,1.63
+Escape velocity,807.08
+Sidereal rotation period,138984.4
+Solar day,None
+Sidereal rotational velocity,9.0416
+Synchronous orbit,None
+Sphere of influence,2429559.1
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,4.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,3.0
+Outer space,2.0
+Recovery,2.0
+Minmus
+Moon of,Kerbin
+Orbital Characteristics
+Semi-major axis,47000000.0
+Apoapsis,47000000.0
+Periapsis,47000000.0
+Orbital eccentricity,0.0
+Orbital inclination,6.0
+Argument of periapsis,38.0
+Longitude of the ascending node,78.0
+Mean anomaly,0.9
+Sidereal orbital period,1077310.5
+Synodic orbital period,1220131.7
+Min Orbital velocity,274.0
+Max Orbital velocity,274.0
+Longest time eclipsed,4378.0
+Physical Characteristics
+Equatorial radius,60000.0
+Equatorial circumference,376991.0
+Surface area,45238934000.00001
+Mass,2.645758e+19
+Standard gravitational parameter,1765800000.0
+Density,29242.046
+Surface gravity,0.491
+Escape velocity,242.61
+Sidereal rotation period,40400.0
+Solar day,None
+Sidereal rotational velocity,9.3315
+Synchronous orbit,357940.0
+Sphere of influence,2247428.4
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,5.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,4.0
+Outer space,2.5
+Recovery,2.5
+Duna
+Planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,20726155264.0
+Apoapsis,21783189163.0
+Periapsis,19669121365.0
+Orbital eccentricity,0.051
+Orbital inclination,0.06
+Argument of periapsis,0.0
+Longitude of the ascending node,135.5
+Mean anomaly,3.14
+Sidereal orbital period,17315400.1
+Synodic orbital period,19645697.3
+Min Orbital velocity,7147.0
+Max Orbital velocity,7915.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,320000.0
+Equatorial circumference,2010619.0
+Surface area,1286796400000.0
+Mass,4.515427e+21
+Standard gravitational parameter,301363210000.0
+Density,32897.302
+Surface gravity,2.94
+Escape velocity,1372.41
+Sidereal rotation period,65517.9
+Solar day,65766.7
+Sidereal rotational velocity,30.688
+Synchronous orbit,2880000.0
+Sphere of influence,47921949.0
+Atmospheric Characteristics
+Atmosphere present,True
+Atmospheric pressure (kPa),6.755
+Atmospheric pressure (atm),0.066667
+Atmospheric height,50000.0
+minimum pressure (atm),6.7e-08
+Temperature Min (Celsius),-123.15
+Temperature Min (Kelvin),150.0
+Temperature Max (Celsius),-40.15
+Temperature Max (Kelvin),233.0
+Oxygen present,False
+Scientific multiplier
+Surface,8.0
+Splashed,None
+Lower atmosphere,5.0
+Upper atmosphere,5.0
+Near space,7.0
+Outer space,5.0
+Recovery,5.0
+Ike
+Moon of,Duna
+Orbital Characteristics
+Semi-major axis,3200000.0
+Apoapsis,3296000.0
+Periapsis,3104000.0
+Orbital eccentricity,0.03
+Orbital inclination,0.2
+Argument of periapsis,0.0
+Longitude of the ascending node,0.0
+Mean anomaly,1.7
+Sidereal orbital period,65517.9
+Synodic orbital period,65766.7
+Min Orbital velocity,298.0
+Max Orbital velocity,316.0
+Longest time eclipsed,2153.0
+Physical Characteristics
+Equatorial radius,130000.0
+Equatorial circumference,816814.0
+Surface area,212371659999.99997
+Mass,2.7821615e+20
+Standard gravitational parameter,18568369000.0
+Density,30231.777
+Surface gravity,1.1
+Escape velocity,534.48
+Sidereal rotation period,65517.9
+Solar day,None
+Sidereal rotational velocity,12.467
+Synchronous orbit,None
+Sphere of influence,1049598.9
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,8.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,7.0
+Outer space,5.0
+Recovery,5.0
+Dres
+Dwarf planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,40839348203.0
+Apoapsis,46761053692.0
+Periapsis,34917642714.0
+Orbital eccentricity,0.145
+Orbital inclination,5.0
+Argument of periapsis,90.0
+Longitude of the ascending node,280.0
+Mean anomaly,3.14
+Sidereal orbital period,47893063.1
+Synodic orbital period,11392903.3
+Min Orbital velocity,4630.0
+Max Orbital velocity,6200.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,138000.0
+Equatorial circumference,867080.0
+Surface area,239313960000.0
+Mass,3.2190937e+20
+Standard gravitational parameter,21484489000.0
+Density,29242.045
+Surface gravity,1.13
+Escape velocity,558.0
+Sidereal rotation period,34800.0
+Solar day,34825.3
+Sidereal rotational velocity,24.916
+Synchronous orbit,732240.0
+Sphere of influence,32832840.0
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,8.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,7.0
+Outer space,6.0
+Recovery,6.0
+Jool
+Planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,68773560320.0
+Apoapsis,72212238387.0
+Periapsis,65334882253.0
+Orbital eccentricity,0.05
+Orbital inclination,1.304
+Argument of periapsis,0.0
+Longitude of the ascending node,52.0
+Mean anomaly,0.1
+Sidereal orbital period,104661432.1
+Synodic orbital period,10090901.7
+Min Orbital velocity,3927.0
+Max Orbital velocity,4341.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,6000000.0
+Equatorial circumference,37699112.0
+Surface area,452389340000000.06
+Mass,4.2332127e+24
+Standard gravitational parameter,282528000000000.0
+Density,4678.7273
+Surface gravity,7.85
+Escape velocity,9704.43
+Sidereal rotation period,36000.0
+Solar day,36012.4
+Sidereal rotational velocity,1047.2
+Synchronous orbit,15010460.0
+Sphere of influence,2455985200.0
+Atmospheric Characteristics
+Atmosphere present,True
+Atmospheric pressure (kPa),1519.88
+Atmospheric pressure (atm),15.0
+Atmospheric height,200000.0
+minimum pressure (atm),1.5000000000000002e-05
+Temperature Min (Celsius),-153.14
+Temperature Min (Kelvin),120.01
+Temperature Max (Celsius),-48.08
+Temperature Max (Kelvin),225.07
+Oxygen present,False
+Scientific multiplier
+Surface,None
+Splashed,None
+Lower atmosphere,12.0
+Upper atmosphere,9.0
+Near space,7.0
+Outer space,6.0
+Recovery,6.0
+Laythe
+Moon of,Jool
+Orbital Characteristics
+Semi-major axis,27184000.0
+Apoapsis,27184000.0
+Periapsis,27184000.0
+Orbital eccentricity,0.0
+Orbital inclination,0.0
+Argument of periapsis,0.0
+Longitude of the ascending node,0.0
+Mean anomaly,3.14
+Sidereal orbital period,52980.9
+Synodic orbital period,53007.7
+Min Orbital velocity,3224.0
+Max Orbital velocity,3224.0
+Longest time eclipsed,3754.0
+Physical Characteristics
+Equatorial radius,500000.0
+Equatorial circumference,3141593.0
+Surface area,3141592700000.0
+Mass,2.9397311e+22
+Standard gravitational parameter,1962000000000.0
+Density,56144.728
+Surface gravity,7.85
+Escape velocity,2801.43
+Sidereal rotation period,52980.9
+Solar day,None
+Sidereal rotational velocity,59.297
+Synchronous orbit,None
+Sphere of influence,3723645.8
+Atmospheric Characteristics
+Atmosphere present,True
+Atmospheric pressure (kPa),60.795
+Atmospheric pressure (atm),0.6
+Atmospheric height,50000.0
+minimum pressure (atm),6e-07
+Temperature Min (Celsius),-74.15
+Temperature Min (Kelvin),199.0
+Temperature Max (Celsius),3.85
+Temperature Max (Kelvin),277.0
+Oxygen present,True
+Scientific multiplier
+Surface,14.0
+Splashed,12.0
+Lower atmosphere,11.0
+Upper atmosphere,10.0
+Near space,9.0
+Outer space,8.0
+Recovery,8.0
+Vall
+Moon of,Jool
+Orbital Characteristics
+Semi-major axis,43152000.0
+Apoapsis,43152000.0
+Periapsis,43152000.0
+Orbital eccentricity,0.0
+Orbital inclination,0.0
+Argument of periapsis,0.0
+Longitude of the ascending node,0.0
+Mean anomaly,0.9
+Sidereal orbital period,105962.1
+Synodic orbital period,106069.5
+Min Orbital velocity,2559.0
+Max Orbital velocity,2559.0
+Longest time eclipsed,4706.0
+Physical Characteristics
+Equatorial radius,300000.0
+Equatorial circumference,1884956.0
+Surface area,1130973400000.0
+Mass,3.1087655e+21
+Standard gravitational parameter,207481500000.0
+Density,27487.522
+Surface gravity,2.31
+Escape velocity,1176.1
+Sidereal rotation period,105962.1
+Solar day,None
+Sidereal rotational velocity,17.789
+Synchronous orbit,None
+Sphere of influence,2406401.4
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,12.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,9.0
+Outer space,8.0
+Recovery,8.0
+Tylo
+Moon of,Jool
+Orbital Characteristics
+Semi-major axis,68500000.0
+Apoapsis,68500000.0
+Periapsis,68500000.0
+Orbital eccentricity,0.0
+Orbital inclination,0.025
+Argument of periapsis,0.0
+Longitude of the ascending node,0.0
+Mean anomaly,3.14
+Sidereal orbital period,211926.4
+Synodic orbital period,212356.4
+Min Orbital velocity,2031.0
+Max Orbital velocity,2031.0
+Longest time eclipsed,5917.0
+Physical Characteristics
+Equatorial radius,600000.0
+Equatorial circumference,3769911.0
+Surface area,4523893400000.0
+Mass,4.2332127e+22
+Standard gravitational parameter,2825280000000.0
+Density,46787.273
+Surface gravity,7.85
+Escape velocity,3068.81
+Sidereal rotation period,211926.4
+Solar day,None
+Sidereal rotational velocity,17.789
+Synchronous orbit,None
+Sphere of influence,10856518.0
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,12.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,10.0
+Outer space,8.0
+Recovery,8.0
+Bop
+Moon of,Jool
+Orbital Characteristics
+Semi-major axis,128500000.0
+Apoapsis,158697500.0
+Periapsis,98302500.0
+Orbital eccentricity,0.235
+Orbital inclination,15.0
+Argument of periapsis,25.0
+Longitude of the ascending node,10.0
+Mean anomaly,0.9
+Sidereal orbital period,544507.4
+Synodic orbital period,547355.1
+Min Orbital velocity,1167.0
+Max Orbital velocity,1884.0
+Longest time eclipsed,10286.0
+Physical Characteristics
+Equatorial radius,65000.0
+Equatorial circumference,408407.0
+Surface area,53092916000.0
+Mass,3.726109e+19
+Standard gravitational parameter,2486834900.0
+Density,32391.188
+Surface gravity,0.589
+Escape velocity,276.62
+Sidereal rotation period,544507.4
+Solar day,None
+Sidereal rotational velocity,0.75005
+Synchronous orbit,None
+Sphere of influence,1221060.9
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,12.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,9.0
+Outer space,8.0
+Recovery,8.0
+Pol
+Moon of,Jool
+Orbital Characteristics
+Semi-major axis,179890000.0
+Apoapsis,210624207.0
+Periapsis,149155794.0
+Orbital eccentricity,0.171
+Orbital inclination,4.25
+Argument of periapsis,15.0
+Longitude of the ascending node,2.0
+Mean anomaly,0.9
+Sidereal orbital period,901902.6
+Synodic orbital period,909742.2
+Min Orbital velocity,1055.0
+Max Orbital velocity,1489.0
+Longest time eclipsed,11381.0
+Physical Characteristics
+Equatorial radius,44000.0
+Equatorial circumference,276460.0
+Surface area,24328494000.0
+Mass,1.0813507e+19
+Standard gravitational parameter,721702080.0
+Density,30305.392
+Surface gravity,0.373
+Escape velocity,181.12
+Sidereal rotation period,901902.6
+Solar day,None
+Sidereal rotational velocity,0.30653
+Synchronous orbit,None
+Sphere of influence,1042138.9
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,12.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,9.0
+Outer space,8.0
+Recovery,8.0
+Eeloo
+Dwarf planet of,Kerbol
+Orbital Characteristics
+Semi-major axis,90118820000.0
+Apoapsis,113549713200.0
+Periapsis,66687926800.0
+Orbital eccentricity,0.26
+Orbital inclination,6.15
+Argument of periapsis,260.0
+Longitude of the ascending node,50.0
+Mean anomaly,3.14
+Sidereal orbital period,156992048.4
+Synodic orbital period,9776696.3
+Min Orbital velocity,2764.0
+Max Orbital velocity,4706.0
+Longest time eclipsed,None
+Physical Characteristics
+Equatorial radius,210000.0
+Equatorial circumference,1319469.0
+Surface area,554176940000.0
+Mass,1.1149224e+21
+Standard gravitational parameter,74410815000.0
+Density,28740.754
+Surface gravity,1.69
+Escape velocity,841.83
+Sidereal rotation period,19460.0
+Solar day,19462.4
+Sidereal rotational velocity,67.804
+Synchronous orbit,683690.0
+Sphere of influence,119082940.0
+Atmospheric Characteristics
+Atmosphere present,False
+Atmospheric pressure (kPa),None
+Atmospheric pressure (atm),None
+Atmospheric height,None
+minimum pressure (atm),None
+Temperature Min (Celsius),None
+Temperature Min (Kelvin),None
+Temperature Max (Celsius),None
+Temperature Max (Kelvin),None
+Oxygen present,None
+Scientific multiplier
+Surface,15.0
+Splashed,None
+Lower atmosphere,None
+Upper atmosphere,None
+Near space,12.0
+Outer space,10.0
+Recovery,10.0
