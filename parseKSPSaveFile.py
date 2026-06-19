@@ -28,21 +28,21 @@ def parseLines(lines, verbose = False):
     blockLevel = 0
     if verbose:
         listsOfPropVals = 0
-    
+
     # Dictionary accumulators initialization
     dataDict = {}
     currentDict = dataDict
     previousDict = []
-    
+
     # Loop over each line
     for ii, line in enumerate(lines):
         # Remove indentation and store its level
         lineStrip, indentLevel = remIndent(line)
-        
+
         # If line starts a sub-block
         if lineStrip == '{':
             blockLevel += 1
-            
+
             # If a block with that name is already present in current block
             if blockName in currentDict:
 
@@ -51,18 +51,18 @@ def parseLines(lines, verbose = False):
                 currentDict[blockName].append({})
                 previousDict.append(currentDict)
                 currentDict = currentDict[blockName][-1]
-            
+
             # If the block is currently unique
             else:
                 currentDict[blockName] = {}
                 previousDict.append(currentDict)
                 currentDict = currentDict[blockName]
-        
+
         # If line ends a sub-block
         elif lineStrip == '}':
             blockLevel -= 1
             currentDict = previousDict.pop()
-        
+
         # For every other line
         else:
             # Verbose checks
@@ -73,14 +73,14 @@ def parseLines(lines, verbose = False):
                 # Check indentation level
                 if blockLevel != indentLevel:
                     print(f"WARNING: indentation level ({indentLevel:d}) does not match block nesting level ({blockLevel:d})")
-            
+
             # Check if line is block name
             if ii + 1 < numLines and lines[ii + 1].lstrip('\t') == '{':
                 blockName = lineStrip
 
             # Check if line is property/value pair
             elif '=' in lineStrip:
-                
+
                 # Split property and value
                 propVal = lineStrip.split('=', 1)
                 prop = propVal[0]
@@ -89,7 +89,7 @@ def parseLines(lines, verbose = False):
                 val  = propVal[1]
                 if val[0] == ' ':
                     val = val[1:]
-                
+
                 # If a property with that name is already present in current block
                 if prop in currentDict:
                     if not isinstance(currentDict[prop], list):
@@ -97,7 +97,7 @@ def parseLines(lines, verbose = False):
                         if verbose:
                             listsOfPropVals += 1
                     currentDict[prop].append(val)
-                
+
                 # If the property is currently unique
                 else:
                     currentDict[prop] = val
@@ -120,14 +120,14 @@ def parseLines(lines, verbose = False):
 def dictToLines(dataDict, verbose = False):
     lines = []
     blockLevel = 0
-    
+
     # Dictionary accumulators initialization
     currentDict = dataDict
     previousDict = []
     previousIndex = []
     previousListIndex = []
     previousWasList = []
-    
+
     iterate = True
     inList = False
     ii = 0
@@ -138,7 +138,7 @@ def dictToLines(dataDict, verbose = False):
 
         # Check if the current dictionary is over
         if ii >= dictLen:
-            
+
             if blockLevel > 0:
                 currentDict = previousDict.pop()
                 dictLen = len(currentDict.keys())
@@ -155,10 +155,10 @@ def dictToLines(dataDict, verbose = False):
                 lines.append(f"{'\t'*(blockLevel):s}{'}':s}")
                 if verbose:
                     print(lines[-1])
-                
+
             else:
                 iterate = False
-        
+
         else:
             if isinstance(currentDict[dictKeys[ii]], dict):
                 lines.append(f"{'\t'*(blockLevel):s}{dictKeys[ii]:s}")
@@ -232,7 +232,7 @@ def main():
     pickle.dump(dataDict, fileId)
     fileId.close()
     tt.toc("Time elapsed loading file (s):")
-    
+
     # Output file for checking functionality
     tt.tic()
     dictTosfsFile(dataDict, r"C:\Users\t.zanelli\Downloads\TEMPDELETEME\all-good-check.sfs")
