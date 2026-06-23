@@ -7,9 +7,10 @@ from pathlib import Path
 import json
 
 class celestialBody(attractor):
-    def __init__(self, mu_ = 1.0, radius_ = 0.0, rSOI_ = HUGE, name_= "", orbit_ = None, satList_ = []):
+    def __init__(self, mu_ = 1.0, radius_ = 0.0, hAtm_ = 0.0, rSOI_ = HUGE, name_= "", orbit_ = None, satList_ = []):
         self.mu      = mu_
         self.radius  = radius_
+        self.hAtm    = hAtm_
         self.name    = name_
         self.orbit   = orbit_
         self.rSOI    = rSOI_
@@ -38,6 +39,9 @@ def loadSystem() -> dict[str, celestialBody]:
         refIDNum = int(refID)
         mu_     = celestialBodies[cbName]['physicalCharacteristics']['standardGravitationalParameter']
         radius_ = celestialBodies[cbName]['physicalCharacteristics']['equatorialRadius']
+        hAtm_   = 0.0
+        if celestialBodies[cbName]['atmosphericCharacteristics']['atmospherePresent']:
+            hAtm_ = celestialBodies[cbName]['atmosphericCharacteristics']['atmosphericHeight']
         orbit_ = None
         attId = celestialBodies[cbName]['attractor']['REF']
         if attId != None:
@@ -45,7 +49,7 @@ def loadSystem() -> dict[str, celestialBody]:
                 orbit_ = orbit.jsonDictToOrbit(celestialBodies[cbName], attractor = system_[attId])
             else:
                 print(f"ERROR: celestial body {cbName:s} loaded before its attractor {celestialBodies[cbName]['attractor']['name']:s}")
-        system_[refIDNum] = celestialBody(mu_, radius_, HUGE, cbName, orbit_, [])
+        system_[refIDNum] = celestialBody(mu_, radius_, hAtm_, HUGE, cbName, orbit_, [])
     for refIDNum, cb in system_.items():
         if cb.orbit != None:
             cb.orbit.att.satList.append(cb)
