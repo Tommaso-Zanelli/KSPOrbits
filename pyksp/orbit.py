@@ -4,6 +4,7 @@ import oct2py as op
 from oct2py import octave as oc
 from .tools import tiny, HUGE, degToRad, radToDeg
 from pathlib import Path
+import copy as _copy
 """
 Provides an interface between python and the orbital mechanics library written    
 by me for matlab a few years ago
@@ -49,6 +50,9 @@ class orbit:
                 f"    longitude of ascending node : {self.lan:.17g} rad\n"
                 f"    periapsis reference time    : {self.t0:.17g} s\n"
                 f"    attractor                   : {self.att.name:s}")
+
+    def copy(self):
+        return _copy.copy(self)
 
     @classmethod
     def posVelToOrbit(cls, x, v, t = 0.0, att_ = defaultAttractor):
