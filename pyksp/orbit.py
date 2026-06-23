@@ -37,6 +37,19 @@ class orbit:
         self.t0   = 0.0
         self.att  = defaultAttractor
 
+    def __repr__(self):
+        return f"orbit(p={self.p:.17g}, e={self.e:.17g}, th0={self.th0:.17g}, incl={self.incl:.17g}, lan={self.lan:.17g}, t0={self.t0:.17g}, att={self.att.name:s})"
+
+    def __str__(self):
+        return (f"orbit:\n"
+                f"    semi-latus rectum           : {self.p:.17g} m\n"
+                f"    eccentricity                : {self.e:.17g}\n"
+                f"    argument of periapsis       : {self.th0:.17g} rad\n"
+                f"    inclination                 : {self.incl:.17g} rad\n"
+                f"    longitude of ascending node : {self.lan:.17g} rad\n"
+                f"    periapsis reference time    : {self.t0:.17g} s\n"
+                f"    attractor                   : {self.att.name:s}")
+
     @classmethod
     def defineParameters(cls, p_, e_ = 0.0, th0_ = 0.0, incl_ = 0.0, lan_ = 0.0, t0_ = 0.0, att_ = defaultAttractor):
         orbit_ = cls()
