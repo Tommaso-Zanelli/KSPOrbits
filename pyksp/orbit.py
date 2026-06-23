@@ -18,11 +18,12 @@ oc.addpath(path)
 oc.addpath(oc.genpath(path))
 
 class attractor:
-    def __init__(self, mu_ = 1.0, rSOI_ = HUGE):
+    def __init__(self, mu_ = 1.0, rSOI_ = HUGE, name_ = ""):
         self.mu   = mu_
         self.rSOI = rSOI_
+        self.name = name_
     
-defaultAttractor = attractor()
+defaultAttractor = attractor(name_ = "default attractor")
     
 class orbit:
     system: dict[str, attractor] = {}
