@@ -28,14 +28,14 @@ defaultAttractor = attractor(name_ = "default attractor")
 class orbit:
     system: dict[str, attractor] = {}
     
-    def __init__(self):
-        self.p    = 1.0
-        self.e    = 0.0
-        self.th0  = 0.0
-        self.incl = 0.0
-        self.lan  = 0.0
-        self.t0   = 0.0
-        self.att  = defaultAttractor
+    def __init__(self, p_, e_ = 0.0, th0_ = 0.0, incl_ = 0.0, lan_ = 0.0, t0_ = 0.0, att_ = defaultAttractor):
+        self.p    = p_
+        self.e    = e_
+        self.th0  = th0_
+        self.incl = incl_
+        self.lan  = lan_
+        self.t0   = t0_
+        self.att  = att_
 
     def __repr__(self):
         return f"orbit(p={self.p:.17g}, e={self.e:.17g}, th0={self.th0:.17g}, incl={self.incl:.17g}, lan={self.lan:.17g}, t0={self.t0:.17g}, att={self.att.name:s})"
@@ -51,29 +51,15 @@ class orbit:
                 f"    attractor                   : {self.att.name:s}")
 
     @classmethod
-    def defineParameters(cls, p_, e_ = 0.0, th0_ = 0.0, incl_ = 0.0, lan_ = 0.0, t0_ = 0.0, att_ = defaultAttractor):
-        orbit_ = cls()
-        orbit_.p    = p_
-        orbit_.e    = e_
-        orbit_.th0  = th0_
-        orbit_.incl = incl_
-        orbit_.lan  = lan_
-        orbit_.t0   = t0_
-        orbit_.att  = att_
-        return orbit_
-
-    @classmethod
     def posVelToOrbit(cls, x, v, t = 0.0, att_ = defaultAttractor):
-        orbit_ = cls()
         _, orbitDict, _ = oc.posVelToStruct(x, v,  att_.mu, t, nout = 3)
-        orbit_.p    = orbitDict['p']
-        orbit_.e    = orbitDict['e']
-        orbit_.th0  = orbitDict['aop']
-        orbit_.incl = orbitDict['incl']
-        orbit_.lan  = orbitDict['lan']
-        orbit_.t0   = orbitDict['peT']
-        orbit_.att  = att_
-        return orbit_
+        p_    = orbitDict['p']
+        e_    = orbitDict['e']
+        th0_  = orbitDict['aop']
+        incl_ = orbitDict['incl']
+        lan_  = orbitDict['lan']
+        t0_   = orbitDict['peT']
+        return cls(p_, e_, th0_, incl_, lan_, t0_, att_)
     
     @classmethod
     def sfsDictToOrbit(cls, orbitDictionary, attractorDictionary = None, attractor = defaultAttractor):
@@ -101,7 +87,7 @@ class orbit:
         p_ = semiMajorAxis*(1.0 - e_*e_)
         # Get reference time at periapsis
         t0_ = referenceTime - (meanAnomaly*np.sqrt((semiMajorAxis**3)/att_.mu))
-        return cls.defineParameters(p_, e_, th0_, incl_, lan_, t0_, att_)
+        return cls(p_, e_, th0_, incl_, lan_, t0_, att_)
     
     @classmethod
     def jsonDictToOrbit(cls, objectDictionary, attractor = defaultAttractor):
@@ -127,7 +113,7 @@ class orbit:
         p_ = semiMajorAxis*(1.0 - e_*e_)
         # Get reference time at periapsis
         t0_ = referenceTime - (meanAnomaly*np.sqrt((semiMajorAxis**3)/att_.mu))
-        return cls.defineParameters(p_, e_, th0_, incl_, lan_, t0_, att_)
+        return cls(p_, e_, th0_, incl_, lan_, t0_, att_)
 
     def orbitToSfsDict(self, attractorDictionary = None, attractorID_ = 1):
         # Get attractor
