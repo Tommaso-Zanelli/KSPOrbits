@@ -5,6 +5,8 @@ import os
 import pickle
 import tqdm
 
+from optiKev import optimizeCost
+
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 plt.close('all')
@@ -425,7 +427,7 @@ vjj = [np.zeros(3) for i in range(4)]
 dvn = np.zeros(3)
 t2tc = t2v[-1]
 xt, _ = timeToPosVel_Lr(t2tc)
-for ii, t1tc in enumerate(t1v[8:11]):
+for ii, t1tc in enumerate(t1v[8:9]): # 11
     tts = np.array([t[0][0] for t in dvl])
     diffts = tts - t1tc
     if min(abs(diffts)) < 0.01:
@@ -435,25 +437,27 @@ for ii, t1tc in enumerate(t1v[8:11]):
         C = dvl[jj][0][3] 
         D = dvl[jj][0][4] 
         print("t1 = ", t1tc, "[s]; t2 = ", t2tc, "[s]; dv = ", C, "[m/s], dist. = ", D, " [m]", end = '\n')
+        t1n, t2n, dvnn, Ci, Cf = optimizeCost(costTime, t1tc, t2tc, dvl[jj][0][2], verbose = True, maxIter = 48)
+        print("t1 = ", t1n, "[s]; t2 = ", t2n, "[s]; dv = ", Cf, "[m/s], dist. = ", 1, " [m]", end = '\n')
     else:
         print(f"{t1tc:g} Not found. Computing...")
-        jj = np.where(np.diff(np.sign(diffts)) != 0)[0][0]
-        dv01 = dvl[jj][0][2]
-        t1 = dvl[jj][0][0]
-        dt1 = np.exp2(np.floor(np.log2(abs(t1))) - 21)
-        dt1m1 = 1.0/dt1
-        C01, dv01, D01 = costTime(t1, t2tc, dv0 = dv01, verbose = True)
-        Cp1, dvp1, Dp1 = costTime(t1 + dt1, t2tc, dv0 = dv01, verbose = True)
-        Cm1, dvm1, Dm1 = costTime(t1 - dt1, t2tc, dv0 = dv01, verbose = True)
-        dvt1 = dv01 + 0.5*(dvp1 - dvm1)*(t1tc - t1)*dt1m1 + 0.5*(dvp1 - 2.0*dv01 + dvm1)*(t1tc - t1)*(t1tc - t1)*dt1m1*dt1m1
-        dv02 = dvl[jj + 1][0][2]
-        t2 = dvl[jj + 1][0][0]
-        dt2 = np.exp2(np.floor(np.log2(abs(t2))) - 21)
-        dt2m1 = 1.0/dt2
-        C02, dv02, D02 = costTime(t2, t2tc, dv0 = dv02, verbose = True)
-        Cp2, dvp2, Dp2 = costTime(t2 + dt2, t2tc, dv0 = dv02, verbose = True)
-        Cm2, dvm2, Dm2 = costTime(t2 - dt2, t2tc, dv0 = dv02, verbose = True)
-        dvt2 = dv02 + 0.5*(dvp2 - dvm2)*(t2tc - t2)*dt2m1 + 0.5*(dvp2 - 2.0*dv02 + dvm2)*(t1tc - t2)*(t1tc - t2)*dt2m1*dt2m1
+        # jj = np.where(np.diff(np.sign(diffts)) != 0)[0][0]
+        # dv01 = dvl[jj][0][2]
+        # t1 = dvl[jj][0][0]
+        # dt1 = np.exp2(np.floor(np.log2(abs(t1))) - 21)
+        # dt1m1 = 1.0/dt1
+        # C01, dv01, D01 = costTime(t1, t2tc, dv0 = dv01, verbose = True)
+        # Cp1, dvp1, Dp1 = costTime(t1 + dt1, t2tc, dv0 = dv01, verbose = True)
+        # Cm1, dvm1, Dm1 = costTime(t1 - dt1, t2tc, dv0 = dv01, verbose = True)
+        # dvt1 = dv01 + 0.5*(dvp1 - dvm1)*(t1tc - t1)*dt1m1 + 0.5*(dvp1 - 2.0*dv01 + dvm1)*(t1tc - t1)*(t1tc - t1)*dt1m1*dt1m1
+        # dv02 = dvl[jj + 1][0][2]
+        # t2 = dvl[jj + 1][0][0]
+        # dt2 = np.exp2(np.floor(np.log2(abs(t2))) - 21)
+        # dt2m1 = 1.0/dt2
+        # C02, dv02, D02 = costTime(t2, t2tc, dv0 = dv02, verbose = True)
+        # Cp2, dvp2, Dp2 = costTime(t2 + dt2, t2tc, dv0 = dv02, verbose = True)
+        # Cm2, dvm2, Dm2 = costTime(t2 - dt2, t2tc, dv0 = dv02, verbose = True)
+        # dvt2 = dv02 + 0.5*(dvp2 - dvm2)*(t2tc - t2)*dt2m1 + 0.5*(dvp2 - 2.0*dv02 + dvm2)*(t1tc - t2)*(t1tc - t2)*dt2m1*dt2m1
 
         # for j, jj in enumerate(jv):
         #     xj, vj, _, _, _ = timeToPosVel_Kev(tts[jj], tMax, np.zeros(3))
