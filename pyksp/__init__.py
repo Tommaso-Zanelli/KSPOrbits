@@ -4,6 +4,9 @@
 # Orbit
 from .orbit import orbit
 from .orbit import defaultAttractor
+from .orbit import entryInSphere
+from .orbit import applyManoeuvre
+from .orbit import localReferenceFrame
 
 # System
 from .system import celestialBody

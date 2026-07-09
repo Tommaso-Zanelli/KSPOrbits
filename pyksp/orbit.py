@@ -115,6 +115,10 @@ class orbit:
         t0_ = referenceTime - (meanAnomaly*np.sqrt((semiMajorAxis**3)/att_.mu))
         return cls(p_, e_, th0_, incl_, lan_, t0_, att_)
 
+    @classmethod
+    def matlabDictToOrbit(cls, dictionary, att_ = defaultAttractor):
+        return cls(dictionary['p'], dictionary['e'], dictionary['lan'], dictionary['incl'], dictionary['aop'], dictionary['peT'], att_)
+
     def orbitToSfsDict(self, attractorDictionary = None, attractorID_ = 1):
         # Get attractor
         if len(self.system) > 0 and self.att in list(self.system.values()):
@@ -187,3 +191,27 @@ class orbit:
 
     def semiMinorAxis(self):
         return self.p / max(np.sqrt(1.0 - self.e**2), tiny*self.p)
+
+
+def entryInSphere(t1, t2, craftOrbit, attractor):
+    return oc.entryInSphere(np.array([t1, t2]), attractor.rSOI, craftOrbit.matlabDict(), attractor.orbit.matlabDict(), attractor.orbit.att.mu, nout = 4)
+
+def localReferenceFrame(x, v):
+    if len(np.shape(v)) > 1:
+        i1 = np.transpose(v/np.linalg.norm(v))[0]
+    else:
+        i1 = v/np.linalg.norm(v)
+    if len(np.shape(x)) > 1:
+        ir = np.transpose(x/np.linalg.norm(x))[0]
+    else:
+        ir = x/np.linalg.norm(x)
+    i2 = np.cross(ir, i1)
+    i2 = i2/np.linalg.norm(i2)
+    i3 = np.cross(i1, i2)
+    return np.array([i1, i2, i3]).transpose()
+
+def applyManoeuvre(initialOrbit, time, deltav):
+    x, v1 = initialOrbit.timeToPosVel(time)
+    v2 = v1 + np.reshape(localReferenceFrame(x, v1)@deltav, (3, 1))
+    return orbit.posVelToOrbit(x, v2, time, initialOrbit.att)
+    #    orbit.matlabDictToOrbit(oc.applyManoeuvre(initialOrbit.matlabDict(), { 't': time, 'v' : np.reshape(deltav, (3, 1)) }, initialOrbit.att.mu, nout = 1), initialOrbit.att)
